@@ -1,0 +1,39 @@
+body {
+  background-color: var(--body-background-color, black);
+  display: grid;
+  grid-template-columns: auto, 40rem, auto;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+section {
+  background-color: var(--section-background-color, grey);
+  color: var(--text-color, white);
+  border: 1rem solid rgb(64, 63, 63);
+  border-radius: 5%;
+}
+
+.one {
+  width: 40rem;
+  height: 20rem;
+  margin: 2rem;
+}
+
+.two {
+  width: 40rem;
+  height: 10rem;
+}
+.buttonWrapper {
+  margin: 1rem;
+}
+button {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  font-size: xx-large;
+  background-color: grey;
+  border-radius: 100%;
+}
+button:hover {
+  cursor: pointer;
+}
